@@ -22,10 +22,14 @@ adjectives=["ANXIOUS","ATTRACTIVE","CARELESS","DEPRESSED","DISHONEST","ENERGETIC
 # 7.  Give instructions to pick 'as you wish you were'
 # 8. repeat #4
 
-# 9. 
+# 9. compare list A to list B word for word. for every word not in both lists, change value to zero
+# 10.  For each duplicate word, change the value of the word in list B to match the value of list A.  ie. list A is the baseline
+
+# 11.  sum the values of both lists, then divide by 1.1
 
 
-
+list_A=[]
+list_B=[]
 dict_A={'item1':3,'item2':6}
 dict_B={'item2':4}
 
