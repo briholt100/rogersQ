@@ -35,10 +35,18 @@ dict_B={'item2':4}
 
 sum(dict_B.itervalues())
 
+print "Choose 10 of the following adjectives by entering in their number."
+for index, item in enumerate(adjectives):
+    print str(index+1)+ "\t"+ str(item)  
+list_A=[2,7,10,11,13,14,18,19,22,1]
 
+#list_A=(raw_input(" list 10 numbers here separated by a space or comma:"))
 
-
-
+if len(list_A )<10:
+    print "you entered in less than 10 items"
+else: print "Thank you; here is your list"
+print list_A
+type(list_A)
 
 
 Introduction = 'The following demonstration test illustrates a version of a "Q-sort", a self-assessment procedure for measuring congruence, a state of internal consistency which Carl Rogers saw as important to healthy personality growth. A brief discussion follows the test, which is self-scoring (as described below). Please read the directions, and complete part A before going on to part B!'
